@@ -15,5 +15,11 @@ A VS Code theme inspired by the colors and heritage of Zimbabwe. 🇿🇼
 3. Click the three dots (...) and select "Install from VSIX...".
 4. Select the downloaded file.
 
+Or install from terminal:
+
+```bash
+code --install-extension ./zimbabwe-theme-0.2.4.vsix
+```
+
 ## Preview
 (Add screenshot here)

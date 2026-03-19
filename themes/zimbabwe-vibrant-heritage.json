@@ -2,10 +2,10 @@
   "name": "Zimbabwe - Vibrant Heritage",
   "type": "light",
   "colors": {
-    "focusBorder": "#FFD200",
+    "focusBorder": "#C75B12",
     "foreground": "#586E75",
     "activityBar.background": "#EEE8D5",
-    "activityBar.foreground": "#00CC99",
+    "activityBar.foreground": "#1FA25D",
     "activityBarBadge.background": "#D40000",
     "activityBarBadge.foreground": "#FFFFFF",
     "sideBar.background": "#EEE8D5",
@@ -13,24 +13,24 @@
     "statusBar.foreground": "#FFFFFF",
     "titleBar.activeBackground": "#EEE8D5",
     "tab.activeBackground": "#FDF6E3",
-    "tab.activeForeground": "#00CC99",
-    "tab.activeBorder": "#FFD200",
+    "tab.activeForeground": "#1FA25D",
+    "tab.activeBorder": "#C75B12",
     "tab.inactiveBackground": "#EEE8D5",
     "editor.background": "#FDF6E3",
     "editor.foreground": "#586E75",
     "editorLineNumber.foreground": "#93A1A1",
     "editorLineNumber.activeForeground": "#586E75",
-    "editorCursor.foreground": "#00CC99",
-    "editor.lineHighlightBackground": "#FFD20020"
+    "editorCursor.foreground": "#C75B12",
+    "editor.lineHighlightBackground": "#FFB00018"
   },
   "tokenColors": [
     { "scope": "comment", "settings": { "foreground": "#93A1A1", "fontStyle": "italic" } },
     { "scope": "keyword, storage.type, storage.modifier", "settings": { "foreground": "#D40000", "fontStyle": "bold" } },
-    { "scope": "string", "settings": { "foreground": "#2AA198" } },
-    { "scope": "entity.name.function", "settings": { "foreground": "#00CC99" } },
+    { "scope": "string", "settings": { "foreground": "#1FA25D" } },
+    { "scope": "entity.name.function", "settings": { "foreground": "#C75B12" } },
     { "scope": "variable, variable.other.readwrite", "settings": { "foreground": "#586E75" } },
     { "scope": "variable.parameter", "settings": { "foreground": "#CB4B16", "fontStyle": "italic" } },
-    { "scope": "constant.numeric, constant.language", "settings": { "foreground": "#D33682" } },
-    { "scope": "support.class, support.type", "settings": { "foreground": "#FFD200" } }
+    { "scope": "constant.numeric, constant.language", "settings": { "foreground": "#B34700" } },
+    { "scope": "support.class, support.type", "settings": { "foreground": "#8A6A2B" } }
   ]
 }
