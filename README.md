@@ -4,7 +4,7 @@
   <img src="./images/logo.png" alt="Zimbabwe Theme — shield inspired by the Zimbabwe flag" width="160" />
 </p>
 
-A VS Code theme collection built around places people recognize in Zimbabwe. Each location comes in a dark and light variant, giving teams eight polished options that feel local, memorable, and easy to work in for long coding sessions.
+A VS Code theme collection built around places people recognize in Zimbabwe. Each city has one display name (`Zimbabwe - City`); multiple files (dark, light, or alternate palettes) can appear as separate picker entries that share the same label.
 
 ## Included Themes
 
@@ -68,30 +68,11 @@ If `cursor` is not found, open the Command Palette in Cursor and run **Shell Com
 
 1. Open the Command Palette with `Cmd/Ctrl + Shift + P`.
 2. Run `Preferences: Color Theme`.
-3. Choose one of the Zimbabwe themes:
-   - `Zimbabwe - Victoria Falls Dark`
-   - `Zimbabwe - Victoria Falls Light`
-   - `Zimbabwe - Harare Dark`
-   - `Zimbabwe - Harare Light`
-   - `Zimbabwe - Chitungwiza Dark`
-   - `Zimbabwe - Chitungwiza Light`
-   - `Zimbabwe - Bulawayo Dark`
-   - `Zimbabwe - Bulawayo Light`
+3. Choose a Zimbabwe theme by city (several palette variants may share the same label — pick the entry that matches the look you want):
+   - `Zimbabwe - Victoria Falls`
+   - `Zimbabwe - Harare`
+   - `Zimbabwe - Chitungwiza`
+   - `Zimbabwe - Bulawayo`
+   - `Zimbabwe - Mutare`
 
-## For Clients and Teams
 
-If you are packaging this for a client, the collection gives you a cleaner story to present: a locally rooted theme suite with clear naming, paired light and dark modes, and enough variety for different user tastes without fragmenting the product.
-
-## Deployment
-
-This repo can publish on deploy to both marketplaces:
-
-- VS Code Marketplace via `npx @vscode/vsce publish`
-- Open VSX via `npx ovsx publish`
-
-To enable that in GitHub Actions, add these repository secrets:
-
-- `VSCE_PAT`: Personal access token for the Visual Studio Marketplace publisher.
-- `OVSX_PAT`: Personal access token for Open VSX.
-
-The workflow at `.github/workflows/release.yml` will package the extension, create a GitHub release, then publish to each marketplace when the matching secret is present.

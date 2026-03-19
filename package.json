@@ -18,19 +18,59 @@
   "contributes": {
     "themes": [
       {
-        "label": "Harare - Dobri Bunker",
+        "label": "Zimbabwe - Bulawayo",
         "uiTheme": "vs-dark",
-        "path": "./themes/harare-dobri.json"
+        "path": "./themes/bulawayo-dark.json"
       },
       {
-        "label": "Bulawayo - Tokyo Night",
+        "label": "Zimbabwe - Bulawayo",
+        "uiTheme": "vs",
+        "path": "./themes/bulawayo-light.json"
+      },
+      {
+        "label": "Zimbabwe - Bulawayo",
         "uiTheme": "vs-dark",
         "path": "./themes/bulawayo-tokyo.json"
       },
       {
-        "label": "Mutare - One Light",
+        "label": "Zimbabwe - Chitungwiza",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chitungwiza-dark.json"
+      },
+      {
+        "label": "Zimbabwe - Chitungwiza",
+        "uiTheme": "vs",
+        "path": "./themes/chitungwiza-light.json"
+      },
+      {
+        "label": "Zimbabwe - Harare",
+        "uiTheme": "vs-dark",
+        "path": "./themes/harare-dark.json"
+      },
+      {
+        "label": "Zimbabwe - Harare",
+        "uiTheme": "vs",
+        "path": "./themes/harare-light.json"
+      },
+      {
+        "label": "Zimbabwe - Harare",
+        "uiTheme": "vs-dark",
+        "path": "./themes/harare-dobri.json"
+      },
+      {
+        "label": "Zimbabwe - Mutare",
         "uiTheme": "vs",
         "path": "./themes/mutare-onelight.json"
+      },
+      {
+        "label": "Zimbabwe - Victoria Falls",
+        "uiTheme": "vs-dark",
+        "path": "./themes/victoria-falls-dark.json"
+      },
+      {
+        "label": "Zimbabwe - Victoria Falls",
+        "uiTheme": "vs",
+        "path": "./themes/victoria-falls-light.json"
       }
     ]
   }
