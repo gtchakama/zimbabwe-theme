@@ -49,7 +49,7 @@ These themes were reworked to feel more intentional and place-led, rather than j
 ### VS Code
 
 ```bash
-code --install-extension ./zimbabwe-theme-0.2.5.vsix
+code --install-extension /zimbabwe-theme-0.3.0.vsix
 ```
 
 ### Cursor
@@ -57,7 +57,7 @@ code --install-extension ./zimbabwe-theme-0.2.5.vsix
 Cursor installs VS Code–compatible extensions the same way. From a terminal (with the [Cursor shell command](https://docs.cursor.com/) on your `PATH`):
 
 ```bash
-cursor --install-extension ./zimbabwe-theme-0.2.5.vsix
+cursor --install-extension ./zimbabwe-theme-0.3.0.vsix
 ```
 
 Or in the app: **Extensions** → **⋯** → **Install from VSIX…** → choose the downloaded file.
@@ -81,3 +81,17 @@ If `cursor` is not found, open the Command Palette in Cursor and run **Shell Com
 ## For Clients and Teams
 
 If you are packaging this for a client, the collection gives you a cleaner story to present: a locally rooted theme suite with clear naming, paired light and dark modes, and enough variety for different user tastes without fragmenting the product.
+
+## Deployment
+
+This repo can publish on deploy to both marketplaces:
+
+- VS Code Marketplace via `npx @vscode/vsce publish`
+- Open VSX via `npx ovsx publish`
+
+To enable that in GitHub Actions, add these repository secrets:
+
+- `VSCE_PAT`: Personal access token for the Visual Studio Marketplace publisher.
+- `OVSX_PAT`: Personal access token for Open VSX.
+
+The workflow at `.github/workflows/release.yml` will package the extension, create a GitHub release, then publish to each marketplace when the matching secret is present.
