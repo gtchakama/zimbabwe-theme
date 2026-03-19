@@ -1,0 +1,31 @@
+{
+  "name": "Zimbabwe - Dark Caribbean",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0D1117",
+    "editor.foreground": "#E6EDF3",
+    "activityBar.background": "#010409",
+    "activityBar.foreground": "#00CC99",
+    "activityBarBadge.background": "#D40000",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "sideBar.background": "#010409",
+    "statusBar.background": "#00CC99",
+    "statusBar.foreground": "#010409",
+    "titleBar.activeBackground": "#010409",
+    "tab.activeBackground": "#0D1117",
+    "tab.activeForeground": "#FFD200",
+    "tab.activeBorder": "#00CC99",
+    "tab.inactiveBackground": "#010409",
+    "focusBorder": "#00CC99",
+    "editorCursor.foreground": "#FFD200",
+    "editor.lineHighlightBackground": "#00CC9915"
+  },
+  "tokenColors": [
+    { "scope": "comment", "settings": { "foreground": "#8B949E", "fontStyle": "italic" } },
+    { "scope": "keyword", "settings": { "foreground": "#FF7B72", "fontStyle": "bold" } },
+    { "scope": "string", "settings": { "foreground": "#A5D6FF" } },
+    { "scope": "entity.name.function", "settings": { "foreground": "#00CC99" } },
+    { "scope": "constant.numeric", "settings": { "foreground": "#FFD200" } },
+    { "scope": "support.type", "settings": { "foreground": "#FFA657" } }
+  ]
+}

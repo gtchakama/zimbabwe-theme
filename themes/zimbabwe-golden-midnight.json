@@ -1,0 +1,31 @@
+{
+  "name": "Zimbabwe - Golden Midnight",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#05080A",
+    "editor.foreground": "#CED5E5",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#FFD200",
+    "activityBarBadge.background": "#D40000",
+    "activityBarBadge.foreground": "#000000",
+    "sideBar.background": "#05080A",
+    "statusBar.background": "#FFD200",
+    "statusBar.foreground": "#000000",
+    "titleBar.activeBackground": "#000000",
+    "tab.activeBackground": "#05080A",
+    "tab.activeForeground": "#FFD200",
+    "tab.activeBorder": "#FFD200",
+    "tab.inactiveBackground": "#000000",
+    "focusBorder": "#FFD200",
+    "editorCursor.foreground": "#00CC99",
+    "editor.lineHighlightBackground": "#FFD20010"
+  },
+  "tokenColors": [
+    { "scope": "comment", "settings": { "foreground": "#5C6370", "fontStyle": "italic" } },
+    { "scope": "keyword", "settings": { "foreground": "#D40000" } },
+    { "scope": "string", "settings": { "foreground": "#00CC99" } },
+    { "scope": "entity.name.function", "settings": { "foreground": "#FFD200" } },
+    { "scope": "constant.numeric", "settings": { "foreground": "#D40000" } },
+    { "scope": "support.class", "settings": { "foreground": "#00CC99" } }
+  ]
+}

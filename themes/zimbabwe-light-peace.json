@@ -1,0 +1,31 @@
+{
+  "name": "Zimbabwe - Light Peace",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#24292E",
+    "activityBar.background": "#F6F8FA",
+    "activityBar.foreground": "#00CC99",
+    "activityBarBadge.background": "#D40000",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "sideBar.background": "#F6F8FA",
+    "statusBar.background": "#00CC99",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#F6F8FA",
+    "tab.activeBackground": "#FFFFFF",
+    "tab.activeForeground": "#00CC99",
+    "tab.activeBorder": "#00CC99",
+    "tab.inactiveBackground": "#F6F8FA",
+    "focusBorder": "#00CC99",
+    "editorCursor.foreground": "#D40000",
+    "editor.lineHighlightBackground": "#00CC9910"
+  },
+  "tokenColors": [
+    { "scope": "comment", "settings": { "foreground": "#6A737D", "fontStyle": "italic" } },
+    { "scope": "keyword", "settings": { "foreground": "#D40000", "fontStyle": "bold" } },
+    { "scope": "string", "settings": { "foreground": "#005CC5" } },
+    { "scope": "entity.name.function", "settings": { "foreground": "#00CC99" } },
+    { "scope": "constant.numeric", "settings": { "foreground": "#E36209" } },
+    { "scope": "support.class", "settings": { "foreground": "#6F42C1" } }
+  ]
+}

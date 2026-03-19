@@ -1,8 +1,8 @@
 {
   "name": "zimbabwe-theme",
-  "displayName": "Zimbabwe Theme",
-  "description": "A VS Code theme inspired by the colors and heritage of Zimbabwe.",
-  "version": "0.1.0",
+  "displayName": "Zimbabwe Theme Collection",
+  "description": "A designer collection of 4 VS Code themes inspired by Zimbabwe, featuring Caribbean Green and sophisticated palettes.",
+  "version": "0.2.0",
   "publisher": "george-chakama",
   "engines": {
     "vscode": "^1.50.0"
@@ -18,9 +18,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "Zimbabwe Dark",
+        "label": "Zimbabwe - Dark Caribbean",
         "uiTheme": "vs-dark",
-        "path": "./themes/zimbabwe-dark.json"
+        "path": "./themes/zimbabwe-dark-caribbean.json"
+      },
+      {
+        "label": "Zimbabwe - Golden Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zimbabwe-golden-midnight.json"
+      },
+      {
+        "label": "Zimbabwe - Light Peace",
+        "uiTheme": "vs",
+        "path": "./themes/zimbabwe-light-peace.json"
+      },
+      {
+        "label": "Zimbabwe - Vibrant Heritage",
+        "uiTheme": "vs",
+        "path": "./themes/zimbabwe-vibrant-heritage.json"
       }
     ]
   }

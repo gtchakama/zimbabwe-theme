@@ -1,0 +1,31 @@
+{
+  "name": "Zimbabwe - Vibrant Heritage",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FDF6E3",
+    "editor.foreground": "#586E75",
+    "activityBar.background": "#EEE8D5",
+    "activityBar.foreground": "#00CC99",
+    "activityBarBadge.background": "#D40000",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "sideBar.background": "#EEE8D5",
+    "statusBar.background": "#D40000",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#EEE8D5",
+    "tab.activeBackground": "#FDF6E3",
+    "tab.activeForeground": "#00CC99",
+    "tab.activeBorder": "#FFD200",
+    "tab.inactiveBackground": "#EEE8D5",
+    "focusBorder": "#FFD200",
+    "editorCursor.foreground": "#00CC99",
+    "editor.lineHighlightBackground": "#FFD20020"
+  },
+  "tokenColors": [
+    { "scope": "comment", "settings": { "foreground": "#93A1A1", "fontStyle": "italic" } },
+    { "scope": "keyword", "settings": { "foreground": "#D40000", "fontStyle": "bold" } },
+    { "scope": "string", "settings": { "foreground": "#2AA198" } },
+    { "scope": "entity.name.function", "settings": { "foreground": "#00CC99" } },
+    { "scope": "constant.numeric", "settings": { "foreground": "#D33682" } },
+    { "scope": "support.class", "settings": { "foreground": "#FFD200" } }
+  ]
+}
