@@ -1,0 +1,99 @@
+{
+  "name": "Zimbabwe Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#05080a",
+    "editor.foreground": "#FFFFFF",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBarBadge.background": "#d40000",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "sideBar.background": "#05080a",
+    "sideBar.foreground": "#FFFFFF",
+    "statusBar.background": "#006400",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#FFFFFF",
+    "tab.activeBackground": "#05080a",
+    "tab.activeForeground": "#ffd200",
+    "tab.activeBorder": "#d40000",
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#FFFFFF",
+    "list.activeSelectionBackground": "#14344B",
+    "list.activeSelectionForeground": "#ffd200",
+    "focusBorder": "#d40000",
+    "editorCursor.foreground": "#ffd200",
+    "editorLineNumber.foreground": "#5C6370",
+    "editorLineNumber.activeForeground": "#ffd200",
+    "editor.lineHighlightBackground": "#14344B50",
+    "editorIndentGuide.activeBackground": "#ffd200"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#5C6370",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": "keyword, storage.type, storage.modifier",
+      "settings": {
+        "foreground": "#d40000",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#ffd200"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": "entity.name.function, support.function",
+      "settings": {
+        "foreground": "#009739"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": "variable, variable.parameter, variable.other.readwrite",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": "constant.numeric, constant.language, constant.character, constant.other",
+      "settings": {
+        "foreground": "#ffd200"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#d40000"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#009739"
+      }
+    },
+    {
+      "name": "Classes/Types",
+      "scope": "entity.name.type, entity.name.class, support.type, support.class",
+      "settings": {
+        "foreground": "#ffd200",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}

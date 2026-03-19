@@ -1,7 +1,7 @@
 {
-  "name": "dobri-next-bunker-theme",
-  "displayName": "Dobri Next -A02- Bunker",
-  "description": "A replication of the Dobri Next -A02- Bunker theme.",
+  "name": "zimbabwe-theme",
+  "displayName": "Zimbabwe Theme",
+  "description": "A VS Code theme inspired by the colors and heritage of Zimbabwe.",
   "version": "0.1.0",
   "publisher": "george-chakama",
   "engines": {
@@ -12,15 +12,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gtchakama/dobri-next-bunker-theme.git"
+    "url": "https://github.com/gtchakama/zimbabwe-theme.git"
   },
   "license": "MIT",
   "contributes": {
     "themes": [
       {
-        "label": "Dobri Next -A02- Bunker",
+        "label": "Zimbabwe Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dobri-A02.json"
+        "path": "./themes/zimbabwe-dark.json"
       }
     ]
   }

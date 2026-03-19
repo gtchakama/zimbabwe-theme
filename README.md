@@ -1,13 +1,19 @@
-# Dobri Next -A02- Bunker (Replication)
+# Zimbabwe Theme
 
-A replication of the [Dobri Next -A02- Bunker](https://vscodethemes.com/e/sldobri.bunker/dobri-next-a02-bunker) VS Code theme.
+A VS Code theme inspired by the colors and heritage of Zimbabwe. 🇿🇼
+
+## Colors
+- **Green**: Agriculture and rural areas
+- **Gold**: Mineral wealth
+- **Red**: Blood shed during the liberation war
+- **Black**: Heritage and ethnicity
+- **White**: Peace
 
 ## Installation
-
-1. Copy the folder to your `.vscode/extensions` directory.
-2. Restart VS Code.
-3. Select the theme from the Color Theme picker.
+1. Download the `.vsix` file from the releases.
+2. Open VS Code and go to the Extensions view.
+3. Click the three dots (...) and select "Install from VSIX...".
+4. Select the downloaded file.
 
 ## Preview
-
-![Preview](https://vscodethemes.imgix.net/e/sldobri.bunker/dobri-next-a02-bunker?auto=format%2Ccompress)
+(Add screenshot here)
