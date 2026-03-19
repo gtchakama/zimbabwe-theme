@@ -1,8 +1,8 @@
 {
   "name": "zimbabwe-theme",
   "displayName": "Zimbabwe Theme Collection",
-  "description": "A designer collection of 4 VS Code themes inspired by Zimbabwe, featuring Caribbean Green and sophisticated palettes.",
-  "version": "0.2.5",
+  "description": "Eight VS Code themes inspired by iconic places in Zimbabwe, with light and dark palettes for Victoria Falls, Harare, Chitungwiza, and Bulawayo.",
+  "version": "0.2.6",
   "publisher": "gtchakama",
   "engines": {
     "vscode": "^1.50.0"
@@ -19,24 +19,44 @@
   "contributes": {
     "themes": [
       {
-        "label": "Zimbabwe - Dark Caribbean",
+        "label": "Zimbabwe - Victoria Falls Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/zimbabwe-dark-caribbean.json"
+        "path": "./themes/victoria-falls-dark.json"
       },
       {
-        "label": "Zimbabwe - Golden Midnight",
+        "label": "Zimbabwe - Victoria Falls Light",
+        "uiTheme": "vs",
+        "path": "./themes/victoria-falls-light.json"
+      },
+      {
+        "label": "Zimbabwe - Harare Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/zimbabwe-golden-midnight.json"
+        "path": "./themes/harare-dark.json"
       },
       {
-        "label": "Zimbabwe - Light Peace",
+        "label": "Zimbabwe - Harare Light",
         "uiTheme": "vs",
-        "path": "./themes/zimbabwe-light-peace.json"
+        "path": "./themes/harare-light.json"
       },
       {
-        "label": "Zimbabwe - Vibrant Heritage",
+        "label": "Zimbabwe - Chitungwiza Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chitungwiza-dark.json"
+      },
+      {
+        "label": "Zimbabwe - Chitungwiza Light",
         "uiTheme": "vs",
-        "path": "./themes/zimbabwe-vibrant-heritage.json"
+        "path": "./themes/chitungwiza-light.json"
+      },
+      {
+        "label": "Zimbabwe - Bulawayo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bulawayo-dark.json"
+      },
+      {
+        "label": "Zimbabwe - Bulawayo Light",
+        "uiTheme": "vs",
+        "path": "./themes/bulawayo-light.json"
       }
     ]
   }

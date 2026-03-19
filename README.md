@@ -1,29 +1,69 @@
-# Zimbabwe Theme
+# Zimbabwe Theme Collection
 
 <p align="center">
   <img src="./images/logo.png" alt="Zimbabwe Theme — shield inspired by the Zimbabwe flag" width="160" />
 </p>
 
-A VS Code theme inspired by the colors and heritage of Zimbabwe. 🇿🇼
+A VS Code theme collection built around places people recognize in Zimbabwe. Each location comes in a dark and light variant, giving teams eight polished options that feel local, memorable, and easy to work in for long coding sessions.
 
-## Colors
-- **Green**: Agriculture and rural areas
-- **Gold**: Mineral wealth
-- **Red**: Blood shed during the liberation war
-- **Black**: Heritage and ethnicity
-- **White**: Peace
+## Included Themes
+
+### Victoria Falls
+- **Dark**: Deep basalt, spray mist, river teal, and sunset gold.
+- **Light**: Clean mist whites, soft aqua, and warm lookout highlights.
+
+### Harare
+- **Dark**: Jacaranda dusk, city night tones, and warm urban amber accents.
+- **Light**: Airy lavender haze, garden greens, and a crisp metropolitan surface.
+
+### Chitungwiza
+- **Dark**: Terracotta streets, energetic market color, and bright turquoise contrast.
+- **Light**: Sunlit clay, warm township tones, and fresh contemporary accents.
+
+### Bulawayo
+- **Dark**: Heritage stone, railway steel, muted acacia greens, and dry-season gold.
+- **Light**: Sandstone neutrals, civic warmth, and measured historic elegance.
+
+## Design Direction
+
+These themes were reworked to feel more intentional and place-led, rather than just flag-colored. The palette treatment takes cues from premium themes like Dobri Next Bunker: richer editor surfaces, stronger contrast discipline, and accent colors used with restraint so the themes stay expressive without becoming noisy.
+
+## Why Users Install It
+
+- Clear dark and light options for every featured place.
+- Distinct personalities across themes while keeping syntax readable.
+- Zimbabwe-inspired palettes that feel specific, not generic.
+- Suitable for daily development, demos, and personal workspace branding.
 
 ## Installation
-1. Download the `.vsix` file from the releases.
-2. Open VS Code and go to the Extensions view.
-3. Click the three dots (...) and select "Install from VSIX...".
-4. Select the downloaded file.
 
-Or install from terminal:
+### From a VSIX release
+1. Download the latest `.vsix` file from the project releases.
+2. Open VS Code.
+3. Go to `Extensions`.
+4. Open the extensions menu and choose `Install from VSIX...`.
+5. Select the downloaded package.
+
+### From the terminal
 
 ```bash
-code --install-extension ./zimbabwe-theme-0.2.4.vsix
+code --install-extension ./zimbabwe-theme-0.2.5.vsix
 ```
 
-## Preview
-(Add screenshot here)
+## Activate a Theme
+
+1. Open the Command Palette with `Cmd/Ctrl + Shift + P`.
+2. Run `Preferences: Color Theme`.
+3. Choose one of the Zimbabwe themes:
+   - `Zimbabwe - Victoria Falls Dark`
+   - `Zimbabwe - Victoria Falls Light`
+   - `Zimbabwe - Harare Dark`
+   - `Zimbabwe - Harare Light`
+   - `Zimbabwe - Chitungwiza Dark`
+   - `Zimbabwe - Chitungwiza Light`
+   - `Zimbabwe - Bulawayo Dark`
+   - `Zimbabwe - Bulawayo Light`
+
+## For Clients and Teams
+
+If you are packaging this for a client, the collection gives you a cleaner story to present: a locally rooted theme suite with clear naming, paired light and dark modes, and enough variety for different user tastes without fragmenting the product.
