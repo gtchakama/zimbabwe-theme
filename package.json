@@ -2,7 +2,7 @@
   "name": "zimbabwe-theme",
   "displayName": "Zimbabwe Theme Collection",
   "description": "A designer collection of 4 VS Code themes inspired by Zimbabwe, featuring Caribbean Green and sophisticated palettes.",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "publisher": "george-chakama",
   "engines": {
     "vscode": "^1.50.0"

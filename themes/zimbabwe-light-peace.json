@@ -2,8 +2,8 @@
   "name": "Zimbabwe - Light Peace",
   "type": "light",
   "colors": {
-    "editor.background": "#FFFFFF",
-    "editor.foreground": "#24292E",
+    "focusBorder": "#00CC99",
+    "foreground": "#24292E",
     "activityBar.background": "#F6F8FA",
     "activityBar.foreground": "#00CC99",
     "activityBarBadge.background": "#D40000",
@@ -16,16 +16,21 @@
     "tab.activeForeground": "#00CC99",
     "tab.activeBorder": "#00CC99",
     "tab.inactiveBackground": "#F6F8FA",
-    "focusBorder": "#00CC99",
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#24292E",
+    "editorLineNumber.foreground": "#959DA5",
+    "editorLineNumber.activeForeground": "#24292E",
     "editorCursor.foreground": "#D40000",
     "editor.lineHighlightBackground": "#00CC9910"
   },
   "tokenColors": [
     { "scope": "comment", "settings": { "foreground": "#6A737D", "fontStyle": "italic" } },
-    { "scope": "keyword", "settings": { "foreground": "#D40000", "fontStyle": "bold" } },
+    { "scope": "keyword, storage.type, storage.modifier", "settings": { "foreground": "#D73A49", "fontStyle": "bold" } },
     { "scope": "string", "settings": { "foreground": "#005CC5" } },
     { "scope": "entity.name.function", "settings": { "foreground": "#00CC99" } },
-    { "scope": "constant.numeric", "settings": { "foreground": "#E36209" } },
-    { "scope": "support.class", "settings": { "foreground": "#6F42C1" } }
+    { "scope": "variable, variable.other.readwrite", "settings": { "foreground": "#24292E" } },
+    { "scope": "variable.parameter", "settings": { "foreground": "#E36209", "fontStyle": "italic" } },
+    { "scope": "constant.numeric, constant.language", "settings": { "foreground": "#005CC5" } },
+    { "scope": "support.class, support.type", "settings": { "foreground": "#6F42C1" } }
   ]
 }
