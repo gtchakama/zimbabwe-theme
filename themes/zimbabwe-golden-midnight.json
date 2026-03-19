@@ -2,30 +2,60 @@
   "name": "Zimbabwe - Golden Midnight",
   "type": "dark",
   "colors": {
-    "editor.background": "#05080A",
-    "editor.foreground": "#CED5E5",
+    "focusBorder": "#FFD200",
+    "foreground": "#CED5E5",
+    "widget.shadow": "#000000",
+    "selection.background": "#FFD20033",
+
     "activityBar.background": "#000000",
     "activityBar.foreground": "#FFD200",
+    "activityBar.inactiveForeground": "#5C6370",
+    "activityBar.border": "#1A1A1A",
     "activityBarBadge.background": "#D40000",
     "activityBarBadge.foreground": "#000000",
-    "sideBar.background": "#05080A",
-    "statusBar.background": "#FFD200",
-    "statusBar.foreground": "#000000",
-    "titleBar.activeBackground": "#000000",
+    "activityBar.activeBorder": "#FFD200",
+
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#CED5E5",
+    "sideBar.border": "#1A1A1A",
+    "sideBarSectionHeader.background": "#000000",
+    "sideBarSectionHeader.foreground": "#FFD200",
+
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorGroup.border": "#1A1A1A",
+
     "tab.activeBackground": "#05080A",
     "tab.activeForeground": "#FFD200",
-    "tab.activeBorder": "#FFD200",
+    "tab.border": "#1A1A1A",
+    "tab.activeBorder": "#05080A",
+    "tab.activeBorderTop": "#FFD200",
     "tab.inactiveBackground": "#000000",
-    "focusBorder": "#FFD200",
+    "tab.inactiveForeground": "#5C6370",
+
+    "editor.background": "#05080A",
+    "editor.foreground": "#CED5E5",
+    "editorLineNumber.foreground": "#3B4252",
+    "editorLineNumber.activeForeground": "#FFD200",
     "editorCursor.foreground": "#00CC99",
-    "editor.lineHighlightBackground": "#FFD20010"
+    "editor.lineHighlightBackground": "#FFD20008",
+    "editor.selectionBackground": "#FFD20022",
+    "editorIndentGuide.background": "#1A1A1A",
+
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#FFD200",
+    "statusBar.border": "#1A1A1A",
+
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#FFD200",
+    "titleBar.border": "#1A1A1A"
   },
   "tokenColors": [
     { "scope": "comment", "settings": { "foreground": "#5C6370", "fontStyle": "italic" } },
-    { "scope": "keyword", "settings": { "foreground": "#D40000" } },
+    { "scope": "keyword", "settings": { "foreground": "#D40000", "fontStyle": "bold" } },
     { "scope": "string", "settings": { "foreground": "#00CC99" } },
     { "scope": "entity.name.function", "settings": { "foreground": "#FFD200" } },
     { "scope": "constant.numeric", "settings": { "foreground": "#D40000" } },
-    { "scope": "support.class", "settings": { "foreground": "#00CC99" } }
+    { "scope": "support.class", "settings": { "foreground": "#00CC99" } },
+    { "scope": "variable", "settings": { "foreground": "#CED5E5" } }
   ]
 }
