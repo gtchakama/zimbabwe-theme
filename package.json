@@ -2,7 +2,7 @@
   "name": "zimbabwe-theme",
   "displayName": "Zimbabwe Theme Collection",
   "description": "Developer-friendly themes inspired by popular VS Code palettes, named after Zimbabwean cities.",
-  "version": "0.3.6",
+  "version": "0.3.8",
   "publisher": "gtchakama",
   "engines": {
     "vscode": "^1.50.0"
@@ -19,57 +19,57 @@
   "contributes": {
     "themes": [
       {
-        "label": "Zimbabwe - Bulawayo",
+        "label": "Zimbabwe - Bulawayo Heritage",
         "uiTheme": "vs-dark",
         "path": "./themes/bulawayo-dark.json"
       },
       {
-        "label": "Zimbabwe - Bulawayo",
+        "label": "Zimbabwe - Bulawayo Sandstone",
         "uiTheme": "vs",
         "path": "./themes/bulawayo-light.json"
       },
       {
-        "label": "Zimbabwe - Bulawayo",
+        "label": "Zimbabwe - Bulawayo Vibe",
         "uiTheme": "vs-dark",
         "path": "./themes/bulawayo-tokyo.json"
       },
       {
-        "label": "Zimbabwe - Chitungwiza",
+        "label": "Zimbabwe - Chitungwiza Market",
         "uiTheme": "vs-dark",
         "path": "./themes/chitungwiza-dark.json"
       },
       {
-        "label": "Zimbabwe - Chitungwiza",
+        "label": "Zimbabwe - Chitungwiza Sunrise",
         "uiTheme": "vs",
         "path": "./themes/chitungwiza-light.json"
       },
       {
-        "label": "Zimbabwe - Harare",
+        "label": "Zimbabwe - Harare Jacaranda",
         "uiTheme": "vs-dark",
         "path": "./themes/harare-dark.json"
       },
       {
-        "label": "Zimbabwe - Harare",
+        "label": "Zimbabwe - Harare Garden",
         "uiTheme": "vs",
         "path": "./themes/harare-light.json"
       },
       {
-        "label": "Zimbabwe - Harare",
+        "label": "Zimbabwe - Harare Copa Cabana",
         "uiTheme": "vs-dark",
         "path": "./themes/harare-dobri.json"
       },
       {
-        "label": "Zimbabwe - Mutare",
+        "label": "Zimbabwe - Mutare Highlands",
         "uiTheme": "vs",
         "path": "./themes/mutare-onelight.json"
       },
       {
-        "label": "Zimbabwe - Victoria Falls",
+        "label": "Zimbabwe - Victoria Falls Gorge",
         "uiTheme": "vs-dark",
         "path": "./themes/victoria-falls-dark.json"
       },
       {
-        "label": "Zimbabwe - Victoria Falls",
+        "label": "Zimbabwe - Victoria Falls Mist",
         "uiTheme": "vs",
         "path": "./themes/victoria-falls-light.json"
       }

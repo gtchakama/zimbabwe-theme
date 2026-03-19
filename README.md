@@ -4,25 +4,30 @@
   <img src="./images/logo.png" alt="Zimbabwe Theme — shield inspired by the Zimbabwe flag" width="160" />
 </p>
 
-A VS Code theme collection built around places people recognize in Zimbabwe. Each city has one display name (`Zimbabwe - City`); multiple files (dark, light, or alternate palettes) can appear as separate picker entries that share the same label.
+A VS Code theme collection built around places people recognize in Zimbabwe. Picker labels use **`Zimbabwe - City Vibe`** — one word after the place so variants stay easy to tell apart.
 
 ## Included Themes
 
 ### Victoria Falls
-- **Dark**: Deep basalt, spray mist, river teal, and sunset gold.
-- **Light**: Clean mist whites, soft aqua, and warm lookout highlights.
+- **Gorge** (dark): Deep basalt, spray mist, river teal, and sunset gold.
+- **Mist** (light): Clean mist whites, soft aqua, and warm lookout highlights.
 
 ### Harare
-- **Dark**: Jacaranda dusk, city night tones, and warm urban amber accents.
-- **Light**: Airy lavender haze, garden greens, and a crisp metropolitan surface.
+- **Jacaranda** (dark): Jacaranda dusk, city night tones, and warm urban amber accents.
+- **Garden** (light): Airy lavender haze, garden greens, and a crisp metropolitan surface.
+- **Bunker** (dark): Steel-and-amber “bunker” palette for focused sessions.
 
 ### Chitungwiza
-- **Dark**: Terracotta streets, energetic market color, and bright turquoise contrast.
-- **Light**: Sunlit clay, warm township tones, and fresh contemporary accents.
+- **Market** (dark): Terracotta streets, energetic market color, and bright turquoise contrast.
+- **Sunrise** (light): Sunlit clay, warm township tones, and fresh contemporary accents.
 
 ### Bulawayo
-- **Dark**: Heritage stone, railway steel, muted acacia greens, and dry-season gold.
-- **Light**: Sandstone neutrals, civic warmth, and measured historic elegance.
+- **Heritage** (dark): Heritage stone, railway steel, muted acacia greens, and dry-season gold.
+- **Sandstone** (light): Sandstone neutrals, civic warmth, and measured historic elegance.
+- **Tokyo** (dark): Tokyo Night–inspired syntax on a Bulawayo-branded shell.
+
+### Mutare
+- **Highlands** (light): Crisp, cool neutrals with Eastern Highlands–style freshness.
 
 ## Design Direction
 
@@ -68,11 +73,14 @@ If `cursor` is not found, open the Command Palette in Cursor and run **Shell Com
 
 1. Open the Command Palette with `Cmd/Ctrl + Shift + P`.
 2. Run `Preferences: Color Theme`.
-3. Choose a Zimbabwe theme by city (several palette variants may share the same label — pick the entry that matches the look you want):
-   - `Zimbabwe - Victoria Falls`
-   - `Zimbabwe - Harare`
-   - `Zimbabwe - Chitungwiza`
-   - `Zimbabwe - Bulawayo`
-   - `Zimbabwe - Mutare`
+3. Pick a label (city + one-word vibe):
+   - `Zimbabwe - Victoria Falls Gorge` / `Zimbabwe - Victoria Falls Mist`
+   - `Zimbabwe - Harare Jacaranda` / `Zimbabwe - Harare Garden` / `Zimbabwe - Harare Bunker`
+   - `Zimbabwe - Chitungwiza Market` / `Zimbabwe - Chitungwiza Sunrise`
+   - `Zimbabwe - Bulawayo Heritage` / `Zimbabwe - Bulawayo Sandstone` / `Zimbabwe - Bulawayo Tokyo`
+   - `Zimbabwe - Mutare Highlands`
 
+## Support
+
+If these themes make your day a little better, you can say thanks with a coffee on [Buy Me a Coffee](https://buymeacoffee.com/gtchakama).
 
