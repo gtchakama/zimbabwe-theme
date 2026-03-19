@@ -1,0 +1,22 @@
+{
+  "name": "dobri-next-bunker-theme",
+  "displayName": "Dobri Next -A02- Bunker",
+  "description": "A replication of the Dobri Next -A02- Bunker theme.",
+  "version": "0.1.0",
+  "publisher": "george-chakama",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dobri Next -A02- Bunker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dobri-A02.json"
+      }
+    ]
+  }
+}
