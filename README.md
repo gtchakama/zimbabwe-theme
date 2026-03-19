@@ -46,9 +46,23 @@ These themes were reworked to feel more intentional and place-led, rather than j
 
 ### From the terminal
 
+### VS Code
+
 ```bash
 code --install-extension ./zimbabwe-theme-0.2.5.vsix
 ```
+
+### Cursor
+
+Cursor installs VS Code–compatible extensions the same way. From a terminal (with the [Cursor shell command](https://docs.cursor.com/) on your `PATH`):
+
+```bash
+cursor --install-extension ./zimbabwe-theme-0.2.5.vsix
+```
+
+Or in the app: **Extensions** → **⋯** → **Install from VSIX…** → choose the downloaded file.
+
+If `cursor` is not found, open the Command Palette in Cursor and run **Shell Command: Install `cursor` command in PATH** (wording may vary slightly by version), then try the command again.
 
 ## Activate a Theme
 

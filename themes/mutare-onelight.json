@@ -1,0 +1,38 @@
+{
+    "name": "Mutare - One Light",
+    "type": "light",
+    "colors": {
+        "activityBar.background": "#FAFAFA",
+        "activityBar.foreground": "#121417",
+        "activityBarBadge.background": "#526FFF",
+        "activityBarBadge.foreground": "#FFFFFF",
+        "button.background": "#5871EF",
+        "button.foreground": "#FFFFFF",
+        "editor.background": "#FAFAFA",
+        "editor.foreground": "#383A42",
+        "editor.lineHighlightBackground": "#383A420C",
+        "editor.selectionBackground": "#E5E5E6",
+        "editorCursor.foreground": "#526FFF",
+        "editorLineNumber.foreground": "#9D9D9F",
+        "editorLineNumber.activeForeground": "#383A42",
+        "sideBar.background": "#EAEAEB",
+        "sideBarSectionHeader.background": "#FAFAFA",
+        "statusBar.background": "#EAEAEB",
+        "statusBar.foreground": "#424243",
+        "tab.activeBackground": "#FAFAFA",
+        "tab.activeForeground": "#121417",
+        "tab.border": "#DBDBDC",
+        "tab.inactiveBackground": "#EAEAEB",
+        "titleBar.activeBackground": "#EAEAEB",
+        "titleBar.activeForeground": "#424243"
+    },
+    "tokenColors": [
+        { "name": "Comment", "scope": ["comment"], "settings": { "foreground": "#A0A1A7", "fontStyle": "italic" } },
+        { "name": "Keyword", "scope": ["keyword", "storage"], "settings": { "foreground": "#A626A4" } },
+        { "name": "Constant", "scope": ["constant"], "settings": { "foreground": "#986801" } },
+        { "name": "Variable", "scope": ["variable"], "settings": { "foreground": "#E45649" } },
+        { "name": "String", "scope": ["string"], "settings": { "foreground": "#50A14F" } },
+        { "name": "Entity Name Function", "scope": ["entity.name.function"], "settings": { "foreground": "#4078F2" } },
+        { "name": "Support Type", "scope": ["support.type", "support.class"], "settings": { "foreground": "#0184BC" } }
+    ]
+}

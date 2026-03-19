@@ -1,9 +1,9 @@
 {
   "name": "zimbabwe-theme",
   "displayName": "Zimbabwe Theme Collection",
-  "description": "Eight VS Code themes inspired by iconic places in Zimbabwe, with light and dark palettes for Victoria Falls, Harare, Chitungwiza, and Bulawayo.",
-  "version": "0.2.6",
-  "publisher": "gtchakama",
+  "description": "Developer-friendly themes inspired by popular VS Code palettes, named after Zimbabwean cities.",
+  "version": "0.3.0",
+  "publisher": "george-chakama",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -15,48 +15,22 @@
     "url": "https://github.com/gtchakama/zimbabwe-theme.git"
   },
   "license": "MIT",
-  "icon": "images/logo.png",
   "contributes": {
     "themes": [
       {
-        "label": "Zimbabwe - Victoria Falls Dark",
+        "label": "Harare - Dobri Bunker",
         "uiTheme": "vs-dark",
-        "path": "./themes/victoria-falls-dark.json"
+        "path": "./themes/harare-dobri.json"
       },
       {
-        "label": "Zimbabwe - Victoria Falls Light",
-        "uiTheme": "vs",
-        "path": "./themes/victoria-falls-light.json"
-      },
-      {
-        "label": "Zimbabwe - Harare Dark",
+        "label": "Bulawayo - Tokyo Night",
         "uiTheme": "vs-dark",
-        "path": "./themes/harare-dark.json"
+        "path": "./themes/bulawayo-tokyo.json"
       },
       {
-        "label": "Zimbabwe - Harare Light",
+        "label": "Mutare - One Light",
         "uiTheme": "vs",
-        "path": "./themes/harare-light.json"
-      },
-      {
-        "label": "Zimbabwe - Chitungwiza Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/chitungwiza-dark.json"
-      },
-      {
-        "label": "Zimbabwe - Chitungwiza Light",
-        "uiTheme": "vs",
-        "path": "./themes/chitungwiza-light.json"
-      },
-      {
-        "label": "Zimbabwe - Bulawayo Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/bulawayo-dark.json"
-      },
-      {
-        "label": "Zimbabwe - Bulawayo Light",
-        "uiTheme": "vs",
-        "path": "./themes/bulawayo-light.json"
+        "path": "./themes/mutare-onelight.json"
       }
     ]
   }
