@@ -6,6 +6,11 @@
 
 A VS Code theme collection built around places people recognize in Zimbabwe. Picker labels use **`Zimbabwe - City Vibe`** — one word after the place so variants stay easy to tell apart.
 
+<p>
+  <img src="./images/image.png" alt="Theme Code sample" />
+</p>
+
+
 ## Included Themes
 
 ### Victoria Falls
@@ -75,9 +80,9 @@ If `cursor` is not found, open the Command Palette in Cursor and run **Shell Com
 2. Run `Preferences: Color Theme`.
 3. Pick a label (city + one-word vibe):
    - `Zimbabwe - Victoria Falls Gorge` / `Zimbabwe - Victoria Falls Mist`
-   - `Zimbabwe - Harare Jacaranda` / `Zimbabwe - Harare Garden` / `Zimbabwe - Harare Bunker`
+   - `Zimbabwe - Harare Jacaranda` / `Zimbabwe - Harare Garden` / `Zimbabwe - Harare Copa Cabana`
    - `Zimbabwe - Chitungwiza Market` / `Zimbabwe - Chitungwiza Sunrise`
-   - `Zimbabwe - Bulawayo Heritage` / `Zimbabwe - Bulawayo Sandstone` / `Zimbabwe - Bulawayo Tokyo`
+   - `Zimbabwe - Bulawayo Heritage` / `Zimbabwe - Bulawayo Sandstone` / `Zimbabwe - Bulawayo Vibe`
    - `Zimbabwe - Mutare Highlands`
 
 ## Support

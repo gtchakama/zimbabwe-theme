@@ -2,7 +2,7 @@
   "name": "zimbabwe-theme",
   "displayName": "Zimbabwe Theme Collection",
   "description": "Developer-friendly themes inspired by popular VS Code palettes, named after Zimbabwean cities.",
-  "version": "0.3.8",
+  "version": "0.4.0",
   "publisher": "gtchakama",
   "engines": {
     "vscode": "^1.50.0"
