@@ -1,5 +1,9 @@
 # Zimbabwe Theme
 
+<p align="center">
+  <img src="./images/logo.png" alt="Zimbabwe Theme — shield inspired by the Zimbabwe flag" width="160" />
+</p>
+
 A VS Code theme inspired by the colors and heritage of Zimbabwe. 🇿🇼
 
 ## Colors
