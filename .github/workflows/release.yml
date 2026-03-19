@@ -14,6 +14,9 @@ permissions:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
+    env:
+      VSCE_PAT: ${{ secrets.VSCE_PAT }}
+      OVSX_PAT: ${{ secrets.OVSX_PAT }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -43,9 +46,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to VS Code Marketplace
-        if: ${{ secrets.VSCE_PAT != '' }}
-        run: npx @vscode/vsce publish -p "${{ secrets.VSCE_PAT }}"
+        if: ${{ env.VSCE_PAT != '' }}
+        run: npx @vscode/vsce publish -p "$VSCE_PAT"
 
       - name: Publish to Open VSX
-        if: ${{ secrets.OVSX_PAT != '' }}
-        run: npx ovsx publish -p "${{ secrets.OVSX_PAT }}"
+        if: ${{ env.OVSX_PAT != '' }}
+        run: npx ovsx publish -p "$OVSX_PAT"
