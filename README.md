@@ -32,10 +32,12 @@ If you live in these places, grew up around them, or just want your workspace to
 
 ### From the terminal
 
+Download the latest release from the [GitHub Releases](https://github.com/gtchakama/zimbabwe-theme/releases) page, then run:
+
 ### VS Code
 
 ```bash
-code --install-extension /zimbabwe-theme-0.3.0.vsix
+code --install-extension ./zimbabwe-theme-latest.vsix
 ```
 
 ### Cursor
@@ -43,7 +45,7 @@ code --install-extension /zimbabwe-theme-0.3.0.vsix
 Cursor installs VS Code–compatible extensions the same way. From a terminal (with the [Cursor shell command](https://docs.cursor.com/) on your `PATH`):
 
 ```bash
-cursor --install-extension ./zimbabwe-theme-0.3.0.vsix
+cursor --install-extension ./zimbabwe-theme-latest.vsix
 ```
 
 Or in the app: **Extensions** → **⋯** → **Install from VSIX…** → choose the downloaded file.
