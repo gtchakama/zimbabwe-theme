@@ -4,46 +4,22 @@
   <img src="./images/logo.png" alt="Zimbabwe Theme — shield inspired by the Zimbabwe flag" width="160" />
 </p>
 
-A VS Code theme collection built around places people recognize in Zimbabwe. Picker labels use **`Zimbabwe - City Vibe`** — one word after the place so variants stay easy to tell apart.
+This collection started with a simple idea: your editor should feel like *somewhere*, not nowhere. Each palette is rooted in a real corner of Zimbabwe—the spray and basalt at the Falls, jacaranda haze over Harare, the warmth of Bulawayo stone, the colour and motion of Chitungwiza, the cool clarity of the Eastern Highlands. They were tuned slowly: contrast checked in long sessions, accents chosen so syntax stays legible, and chrome (tabs, side bar, status bar) balanced so the UI feels cohesive rather than loud.
+
+If you live in these places, grew up around them, or just want your workspace to carry a bit of home (or curiosity), this is for you. Researched, tweaked, and shipped with love.
 
 <p>
   <img src="./images/image.png" alt="Theme Code sample" />
 </p>
 
 
-## Included Themes
 
-### Victoria Falls
-- **Gorge** (dark): Deep basalt, spray mist, river teal, and sunset gold.
-- **Mist** (light): Clean mist whites, soft aqua, and warm lookout highlights.
+## Why people use it
 
-### Harare
-- **Jacaranda** (dark): Jacaranda dusk, city night tones, and warm urban amber accents.
-- **Garden** (light): Airy lavender haze, garden greens, and a crisp metropolitan surface.
-- **Bunker** (dark): Steel-and-amber “bunker” palette for focused sessions.
-
-### Chitungwiza
-- **Market** (dark): Terracotta streets, energetic market color, and bright turquoise contrast.
-- **Sunrise** (light): Sunlit clay, warm township tones, and fresh contemporary accents.
-
-### Bulawayo
-- **Heritage** (dark): Heritage stone, railway steel, muted acacia greens, and dry-season gold.
-- **Sandstone** (light): Sandstone neutrals, civic warmth, and measured historic elegance.
-- **Tokyo** (dark): Tokyo Night–inspired syntax on a Bulawayo-branded shell.
-
-### Mutare
-- **Highlands** (light): Crisp, cool neutrals with Eastern Highlands–style freshness.
-
-## Design Direction
-
-These themes were reworked to feel more intentional and place-led, rather than just flag-colored. The palette treatment takes cues from premium themes like Dobri Next Bunker: richer editor surfaces, stronger contrast discipline, and accent colors used with restraint so the themes stay expressive without becoming noisy.
-
-## Why Users Install It
-
-- Clear dark and light options for every featured place.
-- Distinct personalities across themes while keeping syntax readable.
-- Zimbabwe-inspired palettes that feel specific, not generic.
-- Suitable for daily development, demos, and personal workspace branding.
+- **Readable first** — palettes are stress-tested for real coding, not just screenshots.
+- **Distinct personalities** — each city has its own temperature and story; you can switch mood without switching “quality.”
+- **Honest places** — colours echo landscapes, seasons, and city life rather than generic “theme pack #47.”
+- **Daily-driver friendly** — calm enough for long reviews, sharp enough for debugging and teaching.
 
 ## Installation
 
